@@ -1,0 +1,32 @@
+{
+  "name": "mern-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "type": "module",
+  "keywords": [
+    "MERN",
+    "User Authentication",
+    "React",
+    "Mongoose",
+    "Nodejs"
+  ],
+  "author": "Htet Aung Khant",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "license": "ISC"
+}
